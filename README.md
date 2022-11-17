@@ -1,6 +1,6 @@
 # rn-scratch-card
 
-React Native Scratch Card which temporarily hides content from a user
+it's a fork of rn-scratch-card by @avegrv. On this version, you have access complete access of grid data.
 
 ![Scratch Sample](https://github.com/sweatco/rn-scratch-card/raw/main/demo.gif)
 
@@ -9,10 +9,10 @@ Check out it on [dribble](https://dribbble.com/shots/17396594-Sweatcoin-Scratch-
 ## Installation
 
 ```sh
-yarn add rn-scratch-card
+yarn add @golden_vinyle/rn-scratch-card
 ```
 
-[![https://nodei.co/npm/rn-scratch-card.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/rn-scratch-card.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rn-scratch-card)
+[![https://nodei.co/npm/@golden_vinyle/rn-scratch-card.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@golden_vinyle/rn-scratch-card.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@golden_vinyle/rn-scratch-card)
 
 ## Usage
 
