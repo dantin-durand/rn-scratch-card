@@ -27,7 +27,7 @@ export const ScratchCard: React.FC<ScratchCardProps> = (props: ScratchCardProps)
       const x = Math.min(grid.size.width - 1, Math.max(0, nativeEvent.x))
       const y = Math.min(grid.size.height - 1, Math.max(0, nativeEvent.y))
       grid.update({ x, y })
-      props.onScratch(grid.percentCompleted)
+      props.onScratch(grid)
     }
   }
 }
