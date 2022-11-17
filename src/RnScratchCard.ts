@@ -6,7 +6,7 @@ import {
   UIManager,
   ViewStyle,
 } from 'react-native'
-import type { Point } from './ScratchGrid'
+import type { Point, ScratchGrid } from './ScratchGrid'
 
 const LINKING_ERROR =
   `The package 'rn-scratch-card' doesn't seem to be linked. Make sure: \n\n` +
@@ -17,7 +17,7 @@ const LINKING_ERROR =
 export type ScratchCardProps = {
   source: ImageSourcePropType
   brushWidth: number
-  onScratch?: (scratchPercentage: number) => void
+  onScratch?: (scratchPercentage: ScratchGrid) => void
   style?: ViewStyle
 }
 
